@@ -1,3 +1,0 @@
-This is JHU summer 2016
-Bioperl
-
