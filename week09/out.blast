@@ -1,0 +1,84 @@
+BLASTP 2.5.0+
+
+
+Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+Query= internalbioperlseq 
+       (395 letters)
+
+Database: All non-redundant GenBank CDStranslations+PDB+SwissProt+PIR+PRF excluding environmental samplesfrom WGS projects
+           91,679,577 sequences; 33,785,855,904 total letters
+
+                                                                 Score       E
+Sequences producing significant alignments:                      (bits)    value
+gb|EAW93711.1| twist homolog 1 (acrocephalosyndactyly 3; Saeth...   134   2e-33
+
+
+>gb|EAW93711.1| twist homolog 1 (acrocephalosyndactyly 3; Saethre-Chotzen syndrome) (Drosophila) [Homo sapiens]
+         Length = 235
+
+ Score =  134 bits (336), Expect = 2e-33
+ Identities = 79/124 (63%), Positives = 84/124 (67%), Gaps = 18/124 (14%)
+
+
+Query: 102 RRWQPDPGQARQE--------------GQPQR----AVLRGAAEPAHPGQRARAPAHPVA 143
+           R  QP PGQARQE               Q QR    AVLRGAA+ A  GQRA APAHPVA 
+Sbjct: 64  RAGQPGPGQARQEVCGLWRRRRRGRRRRQQQRRRESAVLRGAADAAGHGQRAGAPAHPVA 123
+
+Query: 144 QRGLRGAAQDHPHAAL*QAEQDPDAQAGRQVHRLPLPGPAERRDGQ*DDQLQLRGPRAPQ 203
+           +RG+R AA+DHPHAAL QAEQD D QAG QVHRLPLPGP ERR G  D +LQL G RA Q 
+Sbjct: 124 ERGVRRAAEDHPHAALGQAEQDSDPQAGGQVHRLPLPGPPERRAGLQDGKLQLCGSRAAQ 183
+
+Query: 204 LRLL 207
+           LRLL 
+Sbjct: 184 LRLL 187
+
+
+  Database: All non-redundant GenBank CDStranslations+PDB+SwissProt+PIR+PRF excluding environmental samplesfrom WGS projects
+    Posted date:  Jul 30, 2016  3:01 PM
+	Number of letters in database: 33,785,855,904
+	Number of sequences in database: 91,679,577
+
+  Matrix: BLOSUM62
+  Gap Penalties Existence: 11, Extension: 1
+expect: 1e-10
+allowgaps: yes
+Search Statistics
+A: 40
+Hits_to_DB: 1,043,133,290
+S1: 40
+S1_bits: 20.0
+S2: 184
+S2_bits: 75.5
+T: 11
+X1: 15
+X1_bits: 7.1
+X2: 38
+X2_bits: 14.6
+X3: 64
+X3_bits: 24.7
+dbentries: 91,679,577
+dbletters: 33,785,855,904
+effectivedblength: 19,667,201,046
+effectivespace: 4,739,795,452,086
+effectivespaceused: 4,739,795,452,086
+entropy: 0.455
+entropy_gapped: 0.140
+kappa: 0.140
+kappa_gapped: 0.0410
+lambda: 0.327
+lambda_gapped: 0.267
+length_adjustment: 154
+num_extensions: 38,722,777
+num_successful_extensions: 129,178
+number_of_hsps_better_than_expect_value_cutoff_without_gapping: 0
+number_of_hsps_gapped: 129,178
+number_of_hsps_successfully_gapped: 0
+querylength: 241
+seqs_better_than_1e-10: 0
+
+
